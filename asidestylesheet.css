@@ -1,5 +1,4 @@
 .asidetitle{
-    font-family: Arial;
     color: black;
 }
 .logoimage{
@@ -9,7 +8,6 @@
 
 }
  .h1buildings{
-    font-family: Arial;
     font-size: 24pt;
     color: black;
     position:relative;
@@ -18,5 +16,4 @@
 }
 .list{
     font-size: 10pt;
-    font-family: Arial;
 }
