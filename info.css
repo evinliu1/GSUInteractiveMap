@@ -1,0 +1,59 @@
+* {
+	margin: 0;
+}
+
+h1{
+	text-align:center;
+	font-weight:bold;
+}
+
+h2{
+	text-align: center;
+	font-weight: bold;
+}
+
+body {
+	font-family: Ariel;
+	background: #6495ED
+}
+
+table{
+	border-style: ridge;
+  border-width: 25px;
+  border-color: #00BFFF;
+  background-color: #d9d9d9;
+}
+
+th {
+	border: 5px solid #095484;
+}
+
+main {
+	display:flex;
+	margin-left:auto;
+	margin-right:auto;
+	height:auto;
+	width: 52.1%;
+	position: relative;
+	margin: 0 auto;
+}
+
+.gsuaddy{
+	inline-size: 150px;
+}
+
+.gsuinfo{
+	width: 800px;
+	border: 2px;
+	border-style: solid;
+	padding: 1em;
+	background-color: lightgray;
+}
+
+.schoolpic > img{
+	  max-width: 100%;
+    height: auto;
+    left: 0px;
+    right: 0px;
+}
+
