@@ -1,0 +1,21 @@
+.asidetitle{
+    font-family: Arial;
+    color: black;
+}
+.logoimage{
+    width: 100px;
+    height: auto;
+
+}
+ .h1buildings{
+    font-family: Arial;
+    font-size: 24pt;
+    color: black;
+    position:relative;
+    left: 50px;
+    top: -50px;
+}
+.list{
+    font-size: 10pt;
+    font-family: Arial;
+}
