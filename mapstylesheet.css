@@ -27,6 +27,26 @@ aside{
 	border-radius: 25px;
 }
 
+.grow img{
+	transition: 0.8s ease;
+}
+
+.grow img:hover{
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform:scale(1.2);
+	transition: 0.8s ease;
+}
+
+.grow2{
+	-webkit-transition:font-size 0.5s;
+	transition: font-size 0.5s;
+}
+
+.grow2:hover {
+	font-size:13pt;
+}
+
 .banner{
 	position: fixed;
 	bottom: 15px;
@@ -147,8 +167,14 @@ aside{
 	list-style-type:none;
 }
 
+  .button {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+	transition: width 0.8s, height 0.8s;
+  }
 
-@media screen{
   .interactive {
     position: relative;
     height: 0;
@@ -161,12 +187,6 @@ aside{
     top: 0;
     left: 0;
     border-radius: 45px;
-  }
-  .button {
-    position: absolute;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
   }
 
   .popup {
@@ -190,6 +210,12 @@ aside{
     width: auto;
     height: auto;
   }
+  
+  .button:hover {
+	  width: 12px;
+	  height: 12px;
+	 
+  }
   .popup__topright {
     left: 20px;
     bottom: -1px;
@@ -200,4 +226,4 @@ aside{
   .popup__text br {
     display: block;
   }
-}
+
