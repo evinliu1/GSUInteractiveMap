@@ -50,10 +50,7 @@ aside{
 }
 
 .button{
-	display:block;
 	border:2px solid #1E90FF;
-	cursor:pointer;
-	text-decoration:none;
 	background:white;
 }
 #langdalehall{
@@ -127,7 +124,6 @@ aside{
   text-align: center;
   font-size: 25px;
   font-weight: bold;
-  overflow: hidden;
 }
 
 
@@ -135,7 +131,7 @@ aside{
   .interactive {
     position: relative;
     height: 0;
-    padding-bottom: 52.91666666666667%;
+    padding-bottom: 52.91%;
   }
   .map {
     display: block;
