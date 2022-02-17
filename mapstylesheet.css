@@ -69,10 +69,6 @@ aside{
 	width: auto;
 }
 
-.button{
-	border:2px solid #1E90FF;
-	background:white;
-}
 #langdalehall{
 	top:84%;
 	left:38%;
@@ -167,20 +163,22 @@ aside{
 	list-style-type:none;
 }
 
-  .button {
+.button {
     position: absolute;
     width: 8px;
     height: 8px;
-	border-radius: 50%;
+    border-radius: 50%;
 	transition: width 0.2s, height 0.2s;
+	border:2px solid #1E90FF;
+	background:white;
   }
 
-  .interactive {
+.interactive {
     position: relative;
     height: 0;
     padding-bottom: 52.91%;
   }
-  .map {
+.map {
     display: block;
     max-width: 100%;
     position: absolute;
@@ -189,7 +187,7 @@ aside{
     border-radius: 45px;
   }
 
-  .popup {
+.popup {
     width: 0;
     height: 0;
     overflow: hidden;
@@ -197,7 +195,7 @@ aside{
     -webkit-transition: opacity 0.5s ease-in-out;
     position: absolute;
   }
-  .innerpopup {
+.innerpopup {
     display: inline-block;
     white-space: nowrap;
     background: #6495ED;
@@ -205,25 +203,25 @@ aside{
     border-radius: 5px;
 
   }
-  .button:focus .popup {
+.button:hover .popup {
     opacity: 1;
     width: auto;
     height: auto;
   }
   
-  .button:hover {
+.button:hover {
 	  width: 12px;
 	  height: 12px;
 	 
   }
-  .popup__topright {
+.popup__topright {
     left: 20px;
     bottom: -1px;
   }
-  .popup__text {
+.popup__text {
     height: auto;
   }
-  .popup__text br {
+.popup__text br {
     display: block;
   }
 
