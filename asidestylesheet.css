@@ -1,20 +1,20 @@
 .asidetitle{
-    color: black;
+	color: black;
 }
 .logoimage{
-    width: 100px;
-    height: auto;
+	width: 100px;
+	height: auto;
 	border-radius: 25px;
 
 }
  .h1buildings{
-    font-size: 24pt;
-    color: black;
-    position:relative;
-    left: 50px;
-    top: -50px;
+	font-size: 24pt;
+	color: black;
+	position:relative;
+	left: 50px;
+	top: -50px;
 }
 .list{
-    font-size: 12pt;
+	font-size: 12pt;
 	list-style-type:none;
 }
