@@ -19,9 +19,11 @@ body {
 
 table{
 	border-style: ridge;
-  border-width: 25px;
-  border-color: #00BFFF;
-  background-color: #d9d9d9;
+	border-width: 25px;
+	border-color: #00BFFF;
+	background-color: #d9d9d9;
+	margin-top: 1%;
+	border-radius: 25px;
 }
 
 th {
@@ -45,9 +47,10 @@ main {
 .gsuinfo{
 	width: 800px;
 	border: 2px;
-	border-style: solid;
 	padding: 1em;
 	background-color: lightgray;
+	border-radius: 25px;
+	margin-bottom: 10%;
 }
 
 .schoolpic > img{
