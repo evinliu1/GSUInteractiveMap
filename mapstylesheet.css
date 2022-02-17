@@ -29,7 +29,7 @@ aside{
 
 .banner{
 	position: fixed;
-	bottom: 5%;
+	bottom: 15px;
 	text-align: center;
 	margin-left: 15%;
 	margin-right: 15%;
@@ -124,6 +124,27 @@ aside{
   text-align: center;
   font-size: 25px;
   font-weight: bold;
+}
+
+.asidetitle{
+    color: black;
+}
+.logoimage{
+    width: 100px;
+    height: auto;
+	border-radius: 25px;
+
+}
+ .h1buildings{
+    font-size: 24pt;
+    color: black;
+    position:relative;
+    left: 50px;
+    top: -50px;
+}
+.list{
+    font-size: 12pt;
+	list-style-type:none;
 }
 
 
