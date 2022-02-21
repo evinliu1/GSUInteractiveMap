@@ -61,3 +61,7 @@ main {
     right: 0px;
 }
 
+.BoldList{
+    font-weight: bold; 
+    padding-top: 5px;
+}
