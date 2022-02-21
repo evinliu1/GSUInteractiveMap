@@ -40,6 +40,10 @@ main {
 	margin: 0 auto;
 }
 
+dt{
+	font-weight: bold;
+}
+
 .gsuaddy{
 	inline-size: 150px;
 	margin-top: 1%;
@@ -60,6 +64,17 @@ main {
     left: 0px;
     right: 0px;
 }
+
+.summary{
+	font-family: Ariel;
+	width: 800px;
+	border: 2px;
+	padding: 1em;
+	background-color: lightgray;
+	border-radius: 25px;
+	margin-bottom: 10%;
+}
+
 
 .BoldList{
     font-weight: bold; 
